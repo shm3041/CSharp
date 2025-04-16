@@ -7,6 +7,12 @@ namespace ex6_38
         {
             InitializeComponent();
             label1.Text = "";
+            button1.Click += Button1_click;
+        }
+
+        private void Button1_click(object? sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         private void Form1_Load(object sender, EventArgs e)
