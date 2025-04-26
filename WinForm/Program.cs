@@ -1,4 +1,4 @@
-namespace ex6_38
+namespace WinForm
 {
     internal static class Program
     {

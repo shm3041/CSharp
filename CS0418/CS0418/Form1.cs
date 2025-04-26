@@ -70,5 +70,10 @@ namespace CS0418
             hours = 0; minutes = 0; seconds = 0;
             UpdateTimeLabel();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
