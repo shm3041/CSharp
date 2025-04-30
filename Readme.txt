@@ -12,5 +12,3 @@ https://docs.google.com/document/d/1011nEeUSDYBTOovVp9Uh98jH-nUCWb_kP8dm5kbyS2M/
 
 250418 °úÁ¦
 https://docs.google.com/document/d/1kF0yPqE9OK_jct9DB8wE6LDmqoID8Xau8F1Z1whUo3w/edit?usp=sharing
-
-test
