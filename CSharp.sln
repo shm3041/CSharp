@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex3_BankAccount", "Ex3_Bank
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex4_TypingSpeed", "Ex4_TypingSpeed\Ex4_TypingSpeed.csproj", "{AC27C079-025E-A353-A876-AB43E71C0BE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "상속", "상속\상속.csproj", "{82546B24-62B3-493D-ADE2-D8AC967E78D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +141,10 @@ Global
 		{AC27C079-025E-A353-A876-AB43E71C0BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC27C079-025E-A353-A876-AB43E71C0BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC27C079-025E-A353-A876-AB43E71C0BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82546B24-62B3-493D-ADE2-D8AC967E78D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82546B24-62B3-493D-ADE2-D8AC967E78D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82546B24-62B3-493D-ADE2-D8AC967E78D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82546B24-62B3-493D-ADE2-D8AC967E78D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -163,6 +169,7 @@ Global
 		{78650E46-9005-C8BE-1FF4-16BBAED57B35} = {39B45F65-2408-4348-8B3C-02C6C4E8A676}
 		{483DBF62-43F0-667A-AF76-1C7D63E576E8} = {39B45F65-2408-4348-8B3C-02C6C4E8A676}
 		{AC27C079-025E-A353-A876-AB43E71C0BE8} = {39B45F65-2408-4348-8B3C-02C6C4E8A676}
+		{82546B24-62B3-493D-ADE2-D8AC967E78D0} = {BD5680B5-A680-46E2-8DCD-A4B52BF64FA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23109621-CC4F-4794-950C-8696D0F578D9}
