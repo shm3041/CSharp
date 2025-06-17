@@ -38,7 +38,7 @@
             // 
             // start
             // 
-            start.Location = new Point(33, 56);
+            start.Location = new Point(32, 62);
             start.Name = "start";
             start.Size = new Size(75, 23);
             start.TabIndex = 0;
@@ -48,7 +48,7 @@
             // 
             // stop
             // 
-            stop.Location = new Point(137, 56);
+            stop.Location = new Point(141, 62);
             stop.Name = "stop";
             stop.Size = new Size(75, 23);
             stop.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             // reset
             // 
-            reset.Location = new Point(239, 56);
+            reset.Location = new Point(251, 62);
             reset.Name = "reset";
             reset.Size = new Size(75, 23);
             reset.TabIndex = 2;
@@ -74,11 +74,12 @@
             // 
             // textBox1
             // 
+            textBox1.BackColor = Color.White;
             textBox1.Font = new Font("맑은 고딕", 16F);
+            textBox1.ForeColor = SystemColors.GrayText;
             textBox1.Location = new Point(12, 12);
-            textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(333, 35);
+            textBox1.Size = new Size(333, 36);
             textBox1.TabIndex = 3;
             textBox1.TextAlign = HorizontalAlignment.Center;
             textBox1.TextChanged += textBox1_TextChanged;
@@ -87,13 +88,15 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(377, 101);
+            BackColor = SystemColors.ControlDark;
+            ClientSize = new Size(358, 97);
             Controls.Add(textBox1);
             Controls.Add(reset);
             Controls.Add(stop);
             Controls.Add(start);
             Name = "Form1";
             Text = "스톱워치 애플리케이션";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

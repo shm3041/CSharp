@@ -6,6 +6,7 @@ namespace CS0418
         {
             InitializeComponent();
             timer1.Stop();
+            textBox1.Enabled = false;
         }
 
         private void UpdateTimeLabel()
@@ -46,6 +47,7 @@ namespace CS0418
         {
             if (!isRunning)
             {
+                UpdateTimeLabel();
                 timer1.Start();
                 isRunning = true;
             }
@@ -72,6 +74,11 @@ namespace CS0418
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
